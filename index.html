@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"/>
+
+    <!-- Info tags -->
+    <meta name="author" content="Mario López Menés"/>
+    <meta name="keywords" content="Mario, Altea, portfolio, design, diseño, UX, UI"/>
+    <meta name="description" content="Altea's UX/UI Portfolio - Design with client needs and developers concerns in mind"/>
+
+    <!-- Styles -->
+    <link type="text/css" rel="stylesheet" href="./Styles/normalize.css"/>
+    <link type="text/css" rel="stylesheet" href="./Styles/style.css"/>
+
+    <!-- Favicon and title -->
+    <link rel="icon" type="image/png" href="./images/favicon.png"/>
+    <title>Altea's Portfolio</title>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="./Scripts/scripts.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <div id="wave01"></div>
+      <section id="hi_there">
+        <h2>Hi there!</h2>
+        <h1>I'm Altea Menés</h1>
+        <p>UI designer with a background in graphic design &<br>front-end development. Balancing my client’s needs<br>in one hand & my developer’s concerns on the other.</p>
+      </section>
+
+      <section id="get_to_know_me" class="info_section visible">
+        <h3 class="left_title" onclick="text_know_me()">Get to know me</h3>
+        <img id="chev_know" class="chevron" src="./Images/up-chevron.svg" alt="Flecha" onclick="text_know_me()">
+        <hr>
+        <div class="left_text notvisible" id="text_know_me">
+          <p>Something that tells my story in a funny and witty way, always keeping design as the main point.</p>
+          <p>It would be kinda long and have several paragraphs, just like this one, because there are many things to tell and I want to appear as an entertaining person.</p>
+          <p>This is a third paragraph, we should be finishing by now. Imagine each paragraph being a tiny bit longer, probably.</p>
+        </div>
+      </section>
+
+      <section id="my_skills" class="info_section visible">
+        <h3 class="left_title" onclick="text_skills()">My skills</h3>
+        <img id="chev_skills"class="chevron" src="./Images/up-chevron.svg" alt="Flecha" onclick="text_skills()">
+        <hr>
+        <div class="left_text notvisible" id="text_skills">
+          <p>Probably buttons or icons, I still don't know how to organize this section. But I'll be cool eventually, when I wrap my head around the design I want to apply here.</p>
+        </div>
+      </section>
+
+      <section id="wanna_talk" class="info_section visible">
+        <h3 class="left_title" onclick="text_talk()">Wanna talk?</h3>
+        <img id="chev_talk" class="chevron" src="./Images/up-chevron.svg" alt="Flecha" onclick="text_talk()">
+        <hr>
+        <div class="left_text notvisible" id="text_talk">
+          <p>My contact info, organized in an easy and clean way. Social network icons would also be here, prominently featuring Medium and Behance.</p>
+        </div>
+      </section>
+
+      <section id="what_i_do">
+        <h3>What I do</h3>
+        <div id="my_projects">
+          <div id="projects_gradient"></div>
+          <article class="project">
+            <img class="project_image" src="./Images/placeholder.png" alt="Flextenso App Mockup"/>
+            <h4 class="project_title">Flextenso</h3>
+            <p class="tags_text">UX/UI Design · Solo project · App</p>
+            <p class="description">Something cool was done by me and it took a certain amount of time!</p>
+          </article>
+
+          <article class="project">
+            <img class="project_image" src="./Images/placeholder.png" alt="Filmin Web Mockup"/>
+            <h4 class="project_title">Filmin</h3>
+            <p class="tags_text">Unsolicited Redesign · Teamwork · Web</p>
+            <p class="description">We implemented a new feature onto the platform’s existing functionalities!</p>
+          </article>
+
+          <article class="project">
+            <img class="project_image" src="./Images/placeholder.png" alt="Another thing"/>
+            <h4 class="project_title">Another thing</h3>
+            <p class="tags_text">Some kind of work · Teamwork · App</p>
+            <p class="description">The team did something amazing, and I’m gonna show you the result.</p>
+          </article>
+
+          <article class="project">
+            <img class="project_image" src="./Images/placeholder.png" alt="Something else"/>
+            <h4 class="project_title">Something else</h3>
+            <p class="tags_text">Some kind of work · Solo project · App</p>
+            <p class="description">Fantastic description about a wonderful experience.</p>
+          </article>
+
+          <article class="project">
+            <img class="project_image" src="./Images/placeholder.png" alt="One more project"/>
+            <h4 class="project_title">One more project</h3>
+            <p class="tags_text">Some kind of work · Teamwork · App</p>
+            <p class="description">We did a great job that impressed our teachers very much.</p>
+          </article>
+
+          <div id="last_project"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
